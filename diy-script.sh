@@ -88,14 +88,14 @@ sed -i "s|firmware_repo.*|firmware_repo 'https://github.com/haiibo/OpenWrt'|g" p
 sed -i "s|ARMv8|ARMv8_PLUS|g" package/luci-app-amlogic/root/etc/config/amlogic
 
 # 更新 docker 版本
-sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=24.0.5/g' feeds/packages/utils/docker/Makefile
-sed -i 's/PKG_HASH:=.*/PKG_HASH:=fa32b5f3c2f85fba9ef6e1b5099a4b608fa20af45ba71b3da2194e8728037eec/g' feeds/packages/utils/docker/Makefile
-sed -i 's/PKG_GIT_SHORT_COMMIT:=.*/PKG_GIT_SHORT_COMMIT:=ced0996/g' feeds/packages/utils/docker/Makefile
+# sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=24.0.5/g' feeds/packages/utils/docker/Makefile
+# sed -i 's/PKG_HASH:=.*/PKG_HASH:=fa32b5f3c2f85fba9ef6e1b5099a4b608fa20af45ba71b3da2194e8728037eec/g' feeds/packages/utils/docker/Makefile
+# sed -i 's/PKG_GIT_SHORT_COMMIT:=.*/PKG_GIT_SHORT_COMMIT:=ced0996/g' feeds/packages/utils/docker/Makefile
 
 # 更新 dockerd 版本
-sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=24.0.5/g' feeds/packages/utils/dockerd/Makefile
-sed -i 's/PKG_HASH:=.*/PKG_HASH:=837d7d667fb64508bf6e53cb5915b4b5ef356599294ffdd5ca8678168230cb38/g' feeds/packages/utils/dockerd/Makefile
-sed -i 's/PKG_GIT_SHORT_COMMIT:=.*/PKG_GIT_SHORT_COMMIT:=a61e2b4/g' feeds/packages/utils/dockerd/Makefile
+# sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=24.0.5/g' feeds/packages/utils/dockerd/Makefile
+# sed -i 's/PKG_HASH:=.*/PKG_HASH:=837d7d667fb64508bf6e53cb5915b4b5ef356599294ffdd5ca8678168230cb38/g' feeds/packages/utils/dockerd/Makefile
+# sed -i 's/PKG_GIT_SHORT_COMMIT:=.*/PKG_GIT_SHORT_COMMIT:=a61e2b4/g' feeds/packages/utils/dockerd/Makefile
 
 # SmartDNS
 git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
