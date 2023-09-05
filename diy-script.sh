@@ -56,6 +56,10 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
 git clone https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwizard
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest/tree/main/applications/luci-app-cloudflarespeedtest package/uci-app-cloudflarespeedtest
+git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest/tree/master/cdnspeedtest package/cdnspeedtest
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/dae package/dae
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/daed package/daed
 
 
 # 科学上网插件
