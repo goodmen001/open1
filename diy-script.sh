@@ -44,7 +44,7 @@ svn export https://github.com/kiddin9/openwrt-packages/tree/master/pgyvpn packag
 svn export https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-phtunnel package/luci-app-phtunnel
 svn export https://github.com/kiddin9/openwrt-packages/tree/master/phtunnel package/phtunnel
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
-git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-beardropper package/luci-app-beardropper
+git clone https://github.com/natelol/luci-app-beardropper package/luci-app-beardropper
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 git clone https://github.com/sirpdboy/luci-app-parentcontrol  package/luci-app-parentcontrol
 git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-control-speedlimit package/luci-app-control-speedlimit
@@ -56,10 +56,11 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
 git clone https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwizard
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
-git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest/tree/main/applications/luci-app-cloudflarespeedtest package/uci-app-cloudflarespeedtest
+git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest/tree/main/applications/luci-app-cloudflarespeedtest package/luci-app-cloudflarespeedtest
 git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest/tree/master/cdnspeedtest package/cdnspeedtest
 git clone https://github.com/kiddin9/openwrt-packages/tree/master/dae package/dae
 git clone https://github.com/kiddin9/openwrt-packages/tree/master/daed package/daed
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-daed
 
 
 # 科学上网插件
@@ -70,7 +71,7 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/openwr
 svn export https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
 svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-git clone https://github.com/haiibo/openwrt-packages/tree/master/luci-app-bypass package/luci-app-bypass
+svn export https://github.com/haiibo/packages/trunk/luci-app-bypass package/luci-app-bypass
 
 # Themes
 git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
