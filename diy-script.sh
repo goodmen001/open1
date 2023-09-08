@@ -56,11 +56,11 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
 git clone https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwizard
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
-svn export https://github.com/immortalwrt-collections/openwrt-cdnspeedtest/tree/master/cdnspeedtest package/cdnspeedtest
-svn export https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest/tree/main/applications/luci-app-cloudflarespeedtest package/luci-app-cloudflarespeedtest
-svn export https://github.com/kiddin9/openwrt-packages/tree/master/daed package/daed
-svn export https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-daed package/luci-app-daed
-# svn export https://github.com/kiddin9/openwrt-packages/tree/master/tailscale package/tailscale
+git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
+git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git package/luci-app-cloudflarespeedtest
+git clone https://github.com/sbwml/luci-app-dae package/dae
+git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/tailscale package/tailscale
 
 # 科学上网插件
 git clone --depth=1 https://github.com/fw876/helloworld package/luci-app-ssr-plus
