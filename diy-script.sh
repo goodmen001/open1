@@ -58,8 +58,8 @@ git clone https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwiz
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
 git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git package/luci-app-cloudflarespeedtest
-git clone https://github.com/sbwml/luci-app-dae package/dae
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+# git clone https://github.com/sbwml/luci-app-dae package/dae
+# git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 svn export https://github.com/kiddin9/openwrt-packages/tree/master/tailscale package/tailscale
 
 # 科学上网插件
