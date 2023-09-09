@@ -50,14 +50,14 @@ git clone https://github.com/sirpdboy/luci-app-parentcontrol  package/luci-app-p
 git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-control-speedlimit package/luci-app-control-speedlimit
 git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-control-webrestriction package/luci-app-control-webrestriction
 git clone https://github.com/gdck/luci-app-control-weburl package/luci-app-control-weburl
-git clone https://github.com/kiddin9/openwrt-packages/tree/master/cloudreve package/cloudreve
-git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cloudreve package/luci-app-cloudreve
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/cloudreve package/cloudreve
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cloudreve package/luci-app-cloudreve
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
 git clone https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwizard
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
-git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cloudflarespeedtest package/luci-app-cloudflarespeedtest
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cloudflarespeedtest package/luci-app-cloudflarespeedtest
 # git clone https://github.com/sbwml/luci-app-dae package/dae
 # git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
